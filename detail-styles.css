@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+
+main .main-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px 30px;
+}
+
+.main-container > .ip-info{
+    padding-top: 30px;
+}
+
+.main-container .heading{
+    color: rgba(184, 188, 204, 0.50);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.main-container .value{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0px 10px;
+    color: #B8BCCC;
+}
+
+.main-container .address{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-container > .map-info{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #575A85;
+}
+
+.main-container > .map-info > p{
+    font-size: 25px;
+    font-weight: 600;
+    color: #B8BCCC;
+    padding: 20px;
+}
+
+.main-container > .map-info > iframe{
+    padding: 20px 30px;
+    width: 90%;
+    height: 450px;
+}
+
+.main-container > p{
+    align-self: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: #B8BCCC;
+    padding: 20px;
+}
+
+.main-container > .time-and-address{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main-container > .post-offices{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.main-container > .post-offices > .search-bar{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    border: 1px solid #575A85;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.post-offices > .search-bar > input{
+    width: 100%;
+    outline: none;
+    padding: 10px;
+    font-size: 15px;
+    background-color: black;
+    border: none;
+}
+
+.post-offices > .post-office-details{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 90%;
+    gap: 30px 20px;
+    padding-top: 20px;
+}
+
+.post-office-details > .post-office-card{
+    background-color: #575A85;
+    padding: 4%;
+    border-radius: 10px;
+}
+
+.post-office-card .data{
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.post-office-details > .post-office-card > div{
+    padding: 8px 0px;
+}
+
+.post-office-card .card-headings{
+    color: #B8BCCC;
+    font-size: 20px;
+    font-weight: 600;
+}
